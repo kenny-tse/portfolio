@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
 
 .App{
-
   height: 10000px;
 }
 
 .IntroContainer{
-  width: 50%;
+  display:flex;
   margin-left: 5%;
   margin-top: 12%;
+  width: 70%;
 }
 
 .Name{
@@ -32,6 +32,7 @@
 .VideoHolder{
   display: flex;
   align-items: center;
+  margin-bottom: 5%;
 }
 
 .videoDescription{
