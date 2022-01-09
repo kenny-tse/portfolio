@@ -10,10 +10,37 @@
 
   justify-content: space-around;
   background-color: rgba(0, 0, 0, 0.75);
-  color: white;
-  font-size: 25px;
-  font-family: 'Gugi';
   height: 50px;
   align-items: center;
 
+}
+
+.navBarButton{
+  color: white;
+  font-size: 25px;
+  font-family: 'Gugi';
+  border: none;
+  background: none;
+
+  display: inline-block;
+  position: relative;
+
+}
+
+.navBarButton:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.navBarButton:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }

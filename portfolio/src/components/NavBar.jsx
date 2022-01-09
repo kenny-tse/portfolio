@@ -25,15 +25,15 @@ const NavBar = (props) => {
   return (
 
     <div id="NavBar">
-      <div onClick={scrollToTop}>
+      <button className="navBarButton" onClick={scrollToTop}>
         Introduction
-      </div>
-      <div onClick={scrollToProjects}>
+      </button>
+      <button className="navBarButton" onClick={scrollToProjects}>
         Projects
-      </div>
-      <div>
+      </button>
+      <button className="navBarButton">
         Placeholder
-      </div>
+      </button>
     </div>
 
   )
