@@ -2,11 +2,18 @@
 
 #NavBar{
 
+  // fix navbar to top
+  position: fixed;
+  top: 0;
   display:flex;
+  width: 100%;
+
   justify-content: space-around;
   background-color: rgba(0, 0, 0, 0.75);
   color: white;
   font-size: 25px;
   font-family: 'Gugi';
+  height: 50px;
+  align-items: center;
 
 }

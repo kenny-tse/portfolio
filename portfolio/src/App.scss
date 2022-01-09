@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
 
+.App{
+
+  height: 10000px;
+}
+
 .IntroContainer{
   width: 50%;
   margin-left: 5%;
@@ -15,3 +20,22 @@
   font-family: 'Gugi';
   font-size: 32px;
   }
+
+.ProjectsContainer{
+  margin-top:20%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.VideoHolder{
+  display: flex;
+  align-items: center;
+}
+
+.videoDescription{
+  font-family: 'Gugi';
+  font-size: 20px;
+  margin-left: 5%;
+}
