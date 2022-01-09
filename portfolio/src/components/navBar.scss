@@ -1,3 +1,4 @@
+@import "stylingVariables";
 @import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
 
 #NavBar{
@@ -9,14 +10,14 @@
   width: 100%;
 
   justify-content: space-around;
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: rgb(73, 14, 14);
   height: 50px;
   align-items: center;
 
 }
 
 .navBarButton{
-  color: white;
+  color: $fontColour;
   font-size: 25px;
   font-family: 'Gugi';
   border: none;
@@ -35,7 +36,7 @@
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: white;
+  background-color: $fontColour;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
