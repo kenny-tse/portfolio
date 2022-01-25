@@ -22,6 +22,15 @@ const NavBar = (props) => {
     });
   };
 
+  const scrollToSkillSets = () => {
+    scroller.scrollTo("SkillSetContainer", {
+      duration: 800,
+      delay: 0,
+      smooth: "easeInOutQuart",
+      offset: -100
+    });
+  };
+
   return (
 
     <div id="NavBar">
@@ -31,8 +40,8 @@ const NavBar = (props) => {
       <button className="navBarButton" onClick={scrollToProjects}>
         Projects
       </button>
-      <button className="navBarButton">
-        Placeholder
+      <button className="navBarButton" onClick={scrollToSkillSets}>
+        Skills
       </button>
     </div>
 
