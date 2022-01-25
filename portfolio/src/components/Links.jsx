@@ -9,13 +9,22 @@ const Links = (props) => {
   return (
     <>
       <div className="iconContainer">
-        <div>
-          <img className="icon" src={linkedinIcon}></img>
-          <img className="icon" src={githubIcon}></img>
+        <div className="iconColumn">
+          <a href="https://www.linkedin.com/in/kenny-shinghim-tse/">
+            <img className="icon" src={linkedinIcon}></img>
+          </a>
+          <a href="https://resume.creddle.io/resume/4lmpr8jfa7">
+            <img className="icon" src={creddleIcon}></img>
+          </a>
         </div>
-        <div>
+
+        <div className="iconColumn">
+
           <img className="icon" src={mailIcon}></img>
-          <img className="icon" src={creddleIcon}></img>
+
+          <a href="https://github.com/kenny-tse">
+            <img className="icon" src={githubIcon}></img>
+          </a>
         </div>
       </div>
     </>

@@ -1,8 +1,16 @@
+$spacing: 5%;
 
 .icon{
+    margin: $spacing;
     width: 100px;
     border-radius: 10px;
 }
+
+.iconColumn{
+    margin: $spacing/2;
+}
+
+
 
 .iconContainer{
     display:flex;

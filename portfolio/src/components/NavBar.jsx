@@ -32,7 +32,6 @@ const NavBar = (props) => {
   };
 
   return (
-
     <div id="NavBar">
       <button className="navBarButton" onClick={scrollToTop}>
         Introduction
