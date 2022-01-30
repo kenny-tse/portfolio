@@ -8,9 +8,8 @@ $spacing: 5%;
 
 .iconColumn{
     margin: $spacing/2;
+    align-items: center;
 }
-
-
 
 .iconContainer{
     display:flex;
@@ -18,4 +17,23 @@ $spacing: 5%;
     margin-left: 5%;
     margin-right: 5%;
     align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .iconContainer{ 
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .iconColumn{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .icon{
+        margin-left: 0;
+        margin-right:20px;
+    }
 }

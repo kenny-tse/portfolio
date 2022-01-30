@@ -48,3 +48,36 @@
   font-size: 20px;
   margin-left: 5%;
 }
+
+.VideoToShow{
+  width: 3000px;
+  height: 315px;
+}
+
+@media only screen and (max-width: 600px) {
+  .IntroContainer {
+    display: flex;
+    width: 130%;
+    margin-top: 40%;
+    flex-direction: column;
+  }
+
+  .ProjectsContainer{
+    margin-top:60%; 
+    width: 130%;
+  }
+
+  .VideoHolder{
+    flex-direction: column;
+  }
+
+  .videoDescription{
+    padding-bottom: 10%;
+    padding-top: 5%;
+    margin-left: 0;
+  }
+
+  .VideoToShow{
+    width: 95%;
+  }
+}
