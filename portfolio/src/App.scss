@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
 
 .App{
-  height: 10000px;
+  height: 4500px;
 }
 
 .IntroContainer, .SkillSetContainer{
@@ -16,6 +16,7 @@
 
 .SkillSetContainer{
   margin-top:10%;
+  width: 90%
 }
 
 .Name{
@@ -55,6 +56,7 @@
 }
 
 @media only screen and (max-width: 600px) {
+
   .IntroContainer {
     display: flex;
     width: 130%;
@@ -65,6 +67,7 @@
   .ProjectsContainer{
     margin-top:60%; 
     width: 130%;
+    margin-left: 3%;
   }
 
   .VideoHolder{
@@ -80,4 +83,28 @@
   .VideoToShow{
     width: 95%;
   }
+
+  .SkillSetContainer{
+    margin-top:30%;
+  }
+
+  .SkillSetContainer{
+    width: 120%
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .Name{
+    font-size: 32px;
+  }
+  
+  .IntroParagraph{
+    font-size: 20px;
+  }
+
+  .SkillSetList{
+    font-size: 20px;
+  }
+
+
 }

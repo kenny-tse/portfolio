@@ -4,6 +4,7 @@ $spacing: 5%;
     margin: $spacing;
     width: 100px;
     border-radius: 10px;
+    height: auto;
 }
 
 .iconColumn{
@@ -15,8 +16,8 @@ $spacing: 5%;
     display:flex;
     flex-direction: row;
     margin-left: 5%;
-    margin-right: 5%;
-    align-items: center;
+    margin-right: -20%;
+    align-items: center
 }
 
 @media only screen and (max-width: 600px) {
@@ -24,6 +25,7 @@ $spacing: 5%;
     .iconContainer{ 
         margin-left: 0;
         margin-right: 0;
+        justify-content: center;
     }
 
     .iconColumn{
@@ -36,4 +38,13 @@ $spacing: 5%;
         margin-left: 0;
         margin-right:20px;
     }
+}
+
+@media only screen and (max-width: 375px) {
+
+    .icon{
+        width: 60px;
+    }
+
+    
 }
