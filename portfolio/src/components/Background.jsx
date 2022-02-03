@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import rain from '../assets/rain.mp4';
+import background from '../assets/background.mp4';
 import './background.scss';
 
 const Background = (props) => {
@@ -8,7 +8,7 @@ const Background = (props) => {
 
     <>
       <video autoPlay muted loop id="backgroundVideo">
-        <source src={rain} type="video/mp4"></source>
+        <source src={background} type="video/mp4"></source>
       </video>
     </>
 

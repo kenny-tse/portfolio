@@ -20,33 +20,42 @@ const App = () => {
       <div className="ProjectsContainer">
         <div className="VideoHolder">
           <iframe className="VideoToShow" width="3000" height="315" src="https://www.youtube.com/embed/lKQDpHSCSDM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-          <a className="videoDescription">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.Curabitur lacinia tincidunt scelerisque.Maecenas sit amet pellentesque neque.Donec eu porttitor diam.Morbi imperdiet velit ante, vitae dignissim justo pretium nec.Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Nullam ut risus sit amet mi finibus porttitor.Aliquam tincidunt tempor sapien eu hendrerit.Donec euismod sagittis orci.Phasellus malesuada ipsum a erat consequat pretium.Nulla tristique diam eu faucibus efficitur.Integer ultricies aliquet nibh, ut ultricies ligula vestibulum et.Fusce non enim sit amet massa tincidunt gravida.Pellentesque mi elit, ultrices sed magna et, laoreet mollis magna.Donec congue a urna sed venenatis.Maecenas sed eros ex.</a>
+          <div className="videoDescription">
+            <div className="projectTitle">Fork it Over</div>
+            <a>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.Curabitur lacinia tincidunt scelerisque.Maecenas sit amet pellentesque neque.Donec eu porttitor diam.Morbi imperdiet velit ante, vitae dignissim justo pretium nec.Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Nullam ut risus sit amet mi finibus porttitor.Aliquam tincidunt tempor sapien eu hendrerit.Donec euismod sagittis orci.Phasellus malesuada ipsum a erat consequat pretium.Nulla tristique diam eu faucibus efficitur.Integer ultricies aliquet nibh, ut ultricies ligula vestibulum et.Fusce non enim sit amet massa tincidunt gravida.Pellentesque mi elit, ultrices sed magna et, laoreet mollis magna.Donec congue a urna sed venenatis.Maecenas sed eros ex.</a>
+          </div>
         </div>
 
         <div className="VideoHolder">
           <iframe className="VideoToShow" src="https://www.youtube.com/embed/lKQDpHSCSDM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-          <a className="videoDescription">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.Curabitur lacinia tincidunt scelerisque.Maecenas sit amet pellentesque neque.Donec eu porttitor diam.Morbi imperdiet velit ante, vitae dignissim justo pretium nec.Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Nullam ut risus sit amet mi finibus porttitor.Aliquam tincidunt tempor sapien eu hendrerit.Donec euismod sagittis orci.Phasellus malesuada ipsum a erat consequat pretium.Nulla tristique diam eu faucibus efficitur.Integer ultricies aliquet nibh, ut ultricies ligula vestibulum et.Fusce non enim sit amet massa tincidunt gravida.Pellentesque mi elit, ultrices sed magna et, laoreet mollis magna.Donec congue a urna sed venenatis.Maecenas sed eros ex.</a>
+          <div className="videoDescription">
+            <div className="projectTitle">LiveBlock Simulator</div>
+            <a>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.Curabitur lacinia tincidunt scelerisque.Maecenas sit amet pellentesque neque.Donec eu porttitor diam.Morbi imperdiet velit ante, vitae dignissim justo pretium nec.Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Nullam ut risus sit amet mi finibus porttitor.Aliquam tincidunt tempor sapien eu hendrerit.Donec euismod sagittis orci.Phasellus malesuada ipsum a erat consequat pretium.Nulla tristique diam eu faucibus efficitur.Integer ultricies aliquet nibh, ut ultricies ligula vestibulum et.Fusce non enim sit amet massa tincidunt gravida.Pellentesque mi elit, ultrices sed magna et, laoreet mollis magna.Donec congue a urna sed venenatis.Maecenas sed eros ex.</a>
+          </div>
         </div>
 
         <div className="VideoHolder">
           <iframe className="VideoToShow" width="3000" height="315" src="https://www.youtube.com/embed/lKQDpHSCSDM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-          <a className="videoDescription">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.Curabitur lacinia tincidunt scelerisque.Maecenas sit amet pellentesque neque.Donec eu porttitor diam.Morbi imperdiet velit ante, vitae dignissim justo pretium nec.Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Nullam ut risus sit amet mi finibus porttitor.Aliquam tincidunt tempor sapien eu hendrerit.Donec euismod sagittis orci.Phasellus malesuada ipsum a erat consequat pretium.Nulla tristique diam eu faucibus efficitur.Integer ultricies aliquet nibh, ut ultricies ligula vestibulum et.Fusce non enim sit amet massa tincidunt gravida.Pellentesque mi elit, ultrices sed magna et, laoreet mollis magna.Donec congue a urna sed venenatis.Maecenas sed eros ex.</a>
+          <div className="videoDescription">
+            <div className="projectTitle">Scheduler</div>
+            <a>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.Curabitur lacinia tincidunt scelerisque.Maecenas sit amet pellentesque neque.Donec eu porttitor diam.Morbi imperdiet velit ante, vitae dignissim justo pretium nec.Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Nullam ut risus sit amet mi finibus porttitor.Aliquam tincidunt tempor sapien eu hendrerit.Donec euismod sagittis orci.Phasellus malesuada ipsum a erat consequat pretium.Nulla tristique diam eu faucibus efficitur.Integer ultricies aliquet nibh, ut ultricies ligula vestibulum et.Fusce non enim sit amet massa tincidunt gravida.Pellentesque mi elit, ultrices sed magna et, laoreet mollis magna.Donec congue a urna sed venenatis.Maecenas sed eros ex.</a>
+          </div>
         </div>
       </div>
 
       <div className="SkillSetContainer">
-        <p className="SkillSetList">
-          <p>LANGUAGES: JavaScript, Ruby, HTML5, SQL, CSS3, Java, C#, C++</p>
-          <p>FRAMEWORKS/ LIBRARIES: NodeJS, ReactJS, Express, JQuery, Ajax, Swing,.NET Framework, WinForm, Ruby on Rails, SASS, Material-UI, Mocha/Chai, Git, Jest, Storybook, Poltergeist, Cypress, JUnit</p>
-          <p>DATABASES: PostgreSQL, msSQL</p>
-          <p>SPOKEN LANGUAGES: English, Cantonese</p>
-        </p>
+        <div className="SkillSetList">
+          <div>LANGUAGES: JavaScript, Ruby, HTML5, SQL, CSS3, Java, C#, C++</div><br />
+          <div>FRAMEWORKS/ LIBRARIES: NodeJS, ReactJS, Express, JQuery, Ajax, Swing,.NET Framework, WinForm, Ruby on Rails, SASS, Material-UI, Mocha/Chai, Git, Jest, Storybook, Poltergeist, Cypress, JUnit</div><br />
+          <div>DATABASES: PostgreSQL, msSQL</div><br />
+          <div>SPOKEN LANGUAGES: English, Cantonese</div>
+        </div>
       </div>
 
-    </div>
+    </div >
   );
 }
 
