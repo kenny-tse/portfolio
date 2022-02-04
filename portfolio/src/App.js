@@ -9,13 +9,13 @@ const App = () => {
       <Background />
       <NavBar />
 
-        <div className="IntroContainer">
-          <div>
-            <header className="Name">KENNY TSE</header>
-            <p className="IntroParagraph">Full stack developer with a passion for creating apps that not only enhance the user experience but the internal employee experience as well. I’m excited to utilize my interpersonal skills to understand the customer and employee pain points and use that as the driving factor in app development.</p>
-          </div>
-          <Links />
+      <div className="IntroContainer">
+        <div>
+          <header className="Name">KENNY TSE</header>
+          <p className="IntroParagraph">Full stack developer with a passion for creating apps that not only enhance the user experience but the internal employee experience as well. I’m excited to utilize my interpersonal skills to understand the customer and employee pain points and use that as the driving factor in app development.</p>
         </div>
+        <Links />
+      </div>
 
       <div className="ProjectsContainer">
         <div className="VideoHolder">

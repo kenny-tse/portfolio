@@ -2,13 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
 
 .App{
-  // height: 4500px;
+  font-family: 'Gugi';
+  background: rgba(0, 0, 0, 0);
 }
 
 .IntroContainer, .SkillSetContainer{
   display:flex;
   margin-left: 5%;
-  margin-top: 18%;
+  margin-top: 15%;
   width: 70%;
   color: $fontColour;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -21,12 +22,10 @@
 }
 
 .Name{
-  font-family: 'Gugi';
   font-size: 64px;
 }
 
 .IntroParagraph, .SkillSetList{
-  font-family: 'Gugi';
   font-size: 32px;
   }
 
@@ -46,7 +45,6 @@
 }
 
 .videoDescription{
-  font-family: 'Gugi';
   font-size: 20px;
   margin-left: 5%;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
