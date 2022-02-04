@@ -33,8 +33,7 @@
   margin-top:20%;
   display: flex;
   flex-direction: column;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-right: 3%;
   color: $fontColour;
 }
 
@@ -75,7 +74,7 @@ iframe {
   }
 
   iframe {
-    width: 500px;
+    width: 100%;
     height: 350px;
   }
 
@@ -92,12 +91,12 @@ iframe {
 
   .VideoHolder{
     flex-direction: column;
+    align-items: flex-end;
   }
 
   .videoDescription{
     padding-bottom: 15%;
     padding-top: 5%;
-    margin-left: 5%;
     width: 100%;
   }
 
@@ -106,7 +105,6 @@ iframe {
   }
 
   iframe {
-    width: 590px;
     height: 380px;
   }
 }
@@ -114,7 +112,6 @@ iframe {
 @media only screen and (max-width: 600px) {
 
   iframe {
-    width: 500px;
     height: 315px;
   }
 }
@@ -133,7 +130,6 @@ iframe {
   }
 
   iframe {
-    width: 300px;
     height: 200px;
   }
 
@@ -158,12 +154,11 @@ iframe {
   }
 
   iframe {
-    width: 230px;
     height: 190px;
   }
 
   .videoDescription{ 
-    font-size: 14px;
+    font-size: 18px;
   }
 }
 
