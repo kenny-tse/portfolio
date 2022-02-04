@@ -63,25 +63,29 @@ iframe {
 }
 
 @media only screen and (max-width: 1000px) {
-  
+
+  .MobileIntroContainer{
+    display:flex;
+    width: 100%;
+  }
+
+  .IntroContainer, .SkillSetContainer{
+    width: 90%;
+  }
+
   iframe {
     width: 500px;
     height: 350px;
   }
-}
-
-@media only screen and (max-width: 600px) {
 
   .IntroContainer {
     display: flex;
-    width: 130%;
     margin-top: 40%;
     flex-direction: column;
   }
 
   .ProjectsContainer{
     margin-top:60%; 
-    width: 130%;
     margin-left: 3%;
   }
 
@@ -100,9 +104,13 @@ iframe {
     margin-top:30%;
   }
 
-  .SkillSetContainer{
-    width: 120%
+  iframe {
+    width: 590px;
+    height: 380px;
   }
+}
+
+@media only screen and (max-width: 600px) {
 
   iframe {
     width: 500px;
