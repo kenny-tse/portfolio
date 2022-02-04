@@ -8,7 +8,7 @@ const Background = (props) => {
 
     <>
       <video autoPlay muted loop id="backgroundVideo">
-        <source src={background} type="video/mp4"></source>
+        <source src={background} type="video/mp4" background="black"></source>
       </video>
     </>
 
