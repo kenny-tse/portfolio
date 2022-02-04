@@ -62,6 +62,14 @@ iframe {
   text-decoration: underline;
 }
 
+@media only screen and (max-width: 1000px) {
+  
+  iframe {
+    width: 500px;
+    height: 350px;
+  }
+}
+
 @media only screen and (max-width: 600px) {
 
   .IntroContainer {
@@ -119,6 +127,14 @@ iframe {
     width: 370px;
     height: 200px;
   }
-
-
 }
+
+
+@media only screen and (max-width: 300px) {
+
+  iframe {
+    width: 280px;
+    height: 190px;
+  }
+}
+

@@ -41,7 +41,7 @@ const App = () => {
           <div className="videoDescription">
             <div className="projectTitle">Interview Scheduler</div>
             <a>
-              A single page application where students can sign up for, delete, and edit interviews. The application makes use of React's custom hooks and state to keep track of user activity and saves scheduled interviews on a PostgresSql database. The project is made using Reactjs, Axios, Classnames, Normalize, Storybook, and PostgreSQL</a>
+              A single page application where students can sign up for, delete, and edit interviews. The application makes use of React's custom hooks and state to keep track of user activity and saves scheduled interviews on a PostgreSql database. The project is made using Reactjs, Axios, Classnames, Normalize, Storybook, and PostgreSQL</a>
           </div>
         </div>
       </div>
