@@ -8,14 +8,14 @@
 .IntroContainer, .SkillSetContainer{
   display:flex;
   margin-left: 5%;
-  margin-top: 12%;
+  margin-top: 18%;
   width: 70%;
   color: $fontColour;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .SkillSetContainer{
-  margin-top:10%;
+  margin-top: 35%;
   width: 90%
 }
 
@@ -30,11 +30,12 @@
   }
 
 .ProjectsContainer{
-  margin-top:20%;
+  margin-top: 35%;
   display: flex;
   flex-direction: column;
   margin-right: 3%;
   color: $fontColour;
+  margin-left: 3%;
 }
 
 .VideoHolder{
@@ -86,7 +87,6 @@ iframe {
 
   .ProjectsContainer{
     margin-top:60%; 
-    margin-left: 3%;
   }
 
   .VideoHolder{
