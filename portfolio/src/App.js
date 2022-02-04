@@ -19,7 +19,7 @@ const App = () => {
 
       <div className="ProjectsContainer">
         <div className="VideoHolder">
-          <iframe className="videoToShow" className="VideoToShow" src="https://www.youtube.com/embed/6mUm3OVhgjA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe className="videoToShow" className="VideoToShow" src="https://www.youtube.com/embed/6mUm3OVhgjA" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
           <div className="videoDescription">
             <div className="projectTitle">Fork it Over</div>
             <a>
@@ -28,7 +28,7 @@ const App = () => {
         </div>
 
         <div className="VideoHolder">
-          <iframe className="videoToShow" src="https://www.youtube.com/embed/lKQDpHSCSDM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe className="videoToShow" src="https://www.youtube.com/embed/lKQDpHSCSDM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
           <div className="videoDescription">
             <div className="projectTitle">LiveBlock Simulator</div>
             <a>

@@ -48,11 +48,12 @@
   font-family: 'Gugi';
   font-size: 20px;
   margin-left: 5%;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  width: 60%;
 }
 
-.VideoToShow{
-  width: 100%;
-  width: 800px;
+iframe {
+  width: 600px;
   height: 315px;
 }
 
@@ -81,13 +82,10 @@
   }
 
   .videoDescription{
-    padding-bottom: 10%;
+    padding-bottom: 15%;
     padding-top: 5%;
-    margin-left: 0;
-  }
-
-  .VideoToShow{
-    width: 95%;
+    margin-left: 5%;
+    width: 100%;
   }
 
   .SkillSetContainer{
