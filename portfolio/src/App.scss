@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
 
 .App{
-  height: 4500px;
+  // height: 4500px;
 }
 
 .IntroContainer, .SkillSetContainer{
@@ -16,7 +16,8 @@
 
 .SkillSetContainer{
   margin-top: 35%;
-  width: 90%
+  width: 90%;
+  margin-bottom: 35%;
 }
 
 .Name{
