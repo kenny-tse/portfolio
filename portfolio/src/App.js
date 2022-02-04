@@ -39,9 +39,9 @@ const App = () => {
         <div className="VideoHolder">
           <iframe className="VideoToShow" src="https://www.youtube.com/embed/gMkWgvs-eqg" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
           <div className="videoDescription">
-            <div className="projectTitle">Scheduler</div>
+            <div className="projectTitle">Interview Scheduler</div>
             <a>
-              A single page application where students can sign up for, delete, and edit interviews. The project is made using Reactjs, Axios, Classnames, Normalize, Storybook, and PostgreSQL</a>
+              A single page application where students can sign up for, delete, and edit interviews. The application makes use of React's custom hooks and state to keep track of user activity and saves scheduled interviews on a PostgresSql database. The project is made using Reactjs, Axios, Classnames, Normalize, Storybook, and PostgreSQL</a>
           </div>
         </div>
       </div>

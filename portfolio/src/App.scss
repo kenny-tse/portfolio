@@ -95,6 +95,11 @@ iframe {
   .SkillSetContainer{
     width: 120%
   }
+
+  iframe {
+    width: 500px;
+    height: 315px;
+  }
 }
 
 @media only screen and (max-width: 375px) {
@@ -108,6 +113,11 @@ iframe {
 
   .SkillSetList{
     font-size: 20px;
+  }
+
+  iframe {
+    width: 370px;
+    height: 200px;
   }
 
 
