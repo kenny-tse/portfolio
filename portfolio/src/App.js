@@ -19,29 +19,29 @@ const App = () => {
 
       <div className="ProjectsContainer">
         <div className="VideoHolder">
-          <iframe className="VideoToShow" width="3000" height="315" src="https://www.youtube.com/embed/lKQDpHSCSDM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+          <iframe className="videoToShow" className="VideoToShow" src="https://www.youtube.com/embed/6mUm3OVhgjA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <div className="videoDescription">
             <div className="projectTitle">Fork it Over</div>
             <a>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.Curabitur lacinia tincidunt scelerisque.Maecenas sit amet pellentesque neque.Donec eu porttitor diam.Morbi imperdiet velit ante, vitae dignissim justo pretium nec.Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Nullam ut risus sit amet mi finibus porttitor.Aliquam tincidunt tempor sapien eu hendrerit.Donec euismod sagittis orci.Phasellus malesuada ipsum a erat consequat pretium.Nulla tristique diam eu faucibus efficitur.Integer ultricies aliquet nibh, ut ultricies ligula vestibulum et.Fusce non enim sit amet massa tincidunt gravida.Pellentesque mi elit, ultrices sed magna et, laoreet mollis magna.Donec congue a urna sed venenatis.Maecenas sed eros ex.</a>
+              Fork it over is a meal planning application that helps users plan out their weekly meal schedule and grocery shopping. The app is built with a React front end and Express Node.js back end. The application features a weekly calendar to keep track of meals you plan to eat on a given week, search function that allows users to look for recipes via the Spoonacular API, pantry list to keep track of ingredients you have on hand, auto generated grocery list based on your weekly meal plan and your pantry items, and favourites page to view your favourited recipes.</a>
           </div>
         </div>
 
         <div className="VideoHolder">
-          <iframe className="VideoToShow" src="https://www.youtube.com/embed/lKQDpHSCSDM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+          <iframe className="videoToShow" src="https://www.youtube.com/embed/lKQDpHSCSDM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <div className="videoDescription">
             <div className="projectTitle">LiveBlock Simulator</div>
             <a>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.Curabitur lacinia tincidunt scelerisque.Maecenas sit amet pellentesque neque.Donec eu porttitor diam.Morbi imperdiet velit ante, vitae dignissim justo pretium nec.Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Nullam ut risus sit amet mi finibus porttitor.Aliquam tincidunt tempor sapien eu hendrerit.Donec euismod sagittis orci.Phasellus malesuada ipsum a erat consequat pretium.Nulla tristique diam eu faucibus efficitur.Integer ultricies aliquet nibh, ut ultricies ligula vestibulum et.Fusce non enim sit amet massa tincidunt gravida.Pellentesque mi elit, ultrices sed magna et, laoreet mollis magna.Donec congue a urna sed venenatis.Maecenas sed eros ex.</a>
+              Standalone application with mock data provided for performing company duties. Its use is to introduce the application to trainees and provide an opportunity to explore functionalities without interfering with the company workflow. This application is made with .NET Framework WinForms and pulls data from an Excel CSV.</a>
           </div>
         </div>
 
         <div className="VideoHolder">
-          <iframe className="VideoToShow" width="3000" height="315" src="https://www.youtube.com/embed/lKQDpHSCSDM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+          <iframe className="VideoToShow" src="https://www.youtube.com/embed/gMkWgvs-eqg" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
           <div className="videoDescription">
             <div className="projectTitle">Scheduler</div>
             <a>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.Curabitur lacinia tincidunt scelerisque.Maecenas sit amet pellentesque neque.Donec eu porttitor diam.Morbi imperdiet velit ante, vitae dignissim justo pretium nec.Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Nullam ut risus sit amet mi finibus porttitor.Aliquam tincidunt tempor sapien eu hendrerit.Donec euismod sagittis orci.Phasellus malesuada ipsum a erat consequat pretium.Nulla tristique diam eu faucibus efficitur.Integer ultricies aliquet nibh, ut ultricies ligula vestibulum et.Fusce non enim sit amet massa tincidunt gravida.Pellentesque mi elit, ultrices sed magna et, laoreet mollis magna.Donec congue a urna sed venenatis.Maecenas sed eros ex.</a>
+              A single page application where students can sign up for, delete, and edit interviews. The project is made using Reactjs, Axios, Classnames, Normalize, Storybook, and PostgreSQL</a>
           </div>
         </div>
       </div>
