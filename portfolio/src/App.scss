@@ -64,9 +64,10 @@ iframe {
 
 @media only screen and (max-width: 1000px) {
 
-  .MobileIntroContainer{
+  .App{
     display:flex;
     width: 100%;
+    flex-direction: column;
   }
 
   .IntroContainer, .SkillSetContainer{
@@ -120,15 +121,15 @@ iframe {
 
 @media only screen and (max-width: 375px) {
   .Name{
-    font-size: 32px;
+    font-size: 28px;
   }
   
   .IntroParagraph{
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .SkillSetList{
-    font-size: 20px;
+    font-size: 18px;
   }
 
   iframe {
@@ -141,15 +142,15 @@ iframe {
 @media only screen and (max-width: 300px) {
 
   .Name{
-    font-size: 28px;
+    font-size: 25px;
   }
   
   .IntroParagraph{
-    font-size: 18px;
+    font-size: 14px;
   }
 
   .SkillSetList{
-    font-size: 18px;
+    font-size: 14px;
   }
 
   iframe {

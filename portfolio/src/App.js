@@ -9,7 +9,6 @@ const App = () => {
       <Background />
       <NavBar />
 
-      <div className="MobileIntroContainer">
         <div className="IntroContainer">
           <div>
             <header className="Name">KENNY TSE</header>
@@ -17,7 +16,6 @@ const App = () => {
           </div>
           <Links />
         </div>
-      </div>
 
       <div className="ProjectsContainer">
         <div className="VideoHolder">
