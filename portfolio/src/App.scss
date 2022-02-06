@@ -1,12 +1,16 @@
 @import "./components/stylingVariables";
 @import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
 
+html{
+  background-color: black;
+}
+
 .App{
   font-family: 'Gugi';
 }
 
 .IntroContainer, .SkillSetContainer{
-  background: rgba(0, 0, 0, 0);
+  // background: rgba(0, 0, 0, 0);
   display:flex;
   margin-left: 5%;
   margin-top: 15%;
