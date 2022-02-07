@@ -9,9 +9,8 @@ const Links = (props) => {
 
   const [popUp, setPopUp] = useState(false);
 
-  const copyEmail = () => {
+  const managePopUp = () => {
     setPopUp(true)
-    navigator.clipboard.writeText("kennytse91@gmail.com");
     setTimeout(function () {
       setPopUp(false)
     }, 3500)
@@ -33,7 +32,7 @@ const Links = (props) => {
         </div>
         <div className="iconColumn">
 
-          <img className="icon" alt="Mail Icon" src={mailIcon} onClick={() => { copyEmail() }}></img>
+          <img className="icon" alt="Mail Icon" src={mailIcon} onTouch={() => { navigator.clipboard.writeText("kennytse91@gmail.com"); managePopUp(); }} onClick={() => { navigator.clipboard.writeText("kennytse91@gmail.com"); managePopUp(); }}></img>
 
           <a href="https://github.com/kenny-tse">
             <img className="icon" alt="Github Icon" src={githubIcon}></img>
