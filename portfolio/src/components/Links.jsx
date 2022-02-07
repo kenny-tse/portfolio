@@ -32,7 +32,7 @@ const Links = (props) => {
         </div>
         <div className="iconColumn">
 
-          <img className="icon" alt="Mail Icon" src={mailIcon} onClick={() => { togglePopUp(); }}></img>
+          <img className="icon" alt="Mail Icon" src={mailIcon} onClick={() => { navigator.clipboard.writeText("kennytse91@gmail.com"); togglePopUp(); }}></img>
 
           <a href="https://github.com/kenny-tse">
             <img className="icon" alt="Github Icon" src={githubIcon}></img>
