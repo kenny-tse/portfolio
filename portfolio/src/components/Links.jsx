@@ -11,16 +11,12 @@ const Links = (props) => {
 
   const managePopUp = () => {
 
-    navigator.clipboard.writeText("kennytse91@gmail.com")
-      .then(() => {
-        setPopUp(true)
-        setTimeout(function () {
-          setPopUp(false)
-        }, 3500)
-      })
-      .catch(e => {
-        console.error(e);
-      });
+    // navigator.clipboard.writeText("kennytse91@gmail.com")
+
+    setPopUp(true)
+    setTimeout(function () {
+      setPopUp(false)
+    }, 3500)
   }
 
   return (
@@ -39,7 +35,7 @@ const Links = (props) => {
         </div>
         <div className="iconColumn">
 
-          <img className="icon" alt="Mail Icon" src={mailIcon} onTouchStart={() => { managePopUp(); }} onClick={() => { managePopUp(); }}></img>
+          <img className="icon" alt="Mail Icon" src={mailIcon} onClick={() => { managePopUp(); }}></img>
 
           <a href="https://github.com/kenny-tse">
             <img className="icon" alt="Github Icon" src={githubIcon}></img>
