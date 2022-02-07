@@ -10,7 +10,7 @@ const Links = (props) => {
   const [popUp, setPopUp] = useState(false);
 
   const managePopUp = () => {
-    navigator.clipboard.writeText("kennytse91@gmail.com");
+    // navigator.clipboard.writeText("kennytse91@gmail.com");
     setPopUp(true)
     setTimeout(function () {
       setPopUp(false)
