@@ -1,41 +1,44 @@
 @import "./components/stylingVariables";
 @import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
 
+html{
+  background: rgba(0, 0, 0, 0);
+}
+
 .App{
-  height: 4500px;
+  font-family: 'Gugi';
 }
 
 .IntroContainer, .SkillSetContainer{
   display:flex;
   margin-left: 5%;
-  margin-top: 12%;
+  margin-top: 15%;
   width: 70%;
   color: $fontColour;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .SkillSetContainer{
-  margin-top:10%;
-  width: 90%
+  margin-top: 35%;
+  width: 90%;
+  margin-bottom: 35%;
 }
 
 .Name{
-  font-family: 'Gugi';
   font-size: 64px;
 }
 
 .IntroParagraph, .SkillSetList{
-  font-family: 'Gugi';
   font-size: 32px;
   }
 
 .ProjectsContainer{
-  margin-top:20%;
+  margin-top: 35%;
   display: flex;
   flex-direction: column;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-right: 3%;
   color: $fontColour;
+  margin-left: 3%;
 }
 
 .VideoHolder{
@@ -45,7 +48,6 @@
 }
 
 .videoDescription{
-  font-family: 'Gugi';
   font-size: 20px;
   margin-left: 5%;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -75,7 +77,7 @@ iframe {
   }
 
   iframe {
-    width: 500px;
+    width: 100%;
     height: 350px;
   }
 
@@ -87,17 +89,16 @@ iframe {
 
   .ProjectsContainer{
     margin-top:60%; 
-    margin-left: 3%;
   }
 
   .VideoHolder{
     flex-direction: column;
+    align-items: flex-end;
   }
 
   .videoDescription{
     padding-bottom: 15%;
     padding-top: 5%;
-    margin-left: 5%;
     width: 100%;
   }
 
@@ -106,7 +107,6 @@ iframe {
   }
 
   iframe {
-    width: 590px;
     height: 380px;
   }
 }
@@ -114,7 +114,6 @@ iframe {
 @media only screen and (max-width: 600px) {
 
   iframe {
-    width: 500px;
     height: 315px;
   }
 }
@@ -133,7 +132,6 @@ iframe {
   }
 
   iframe {
-    width: 300px;
     height: 200px;
   }
 
@@ -158,7 +156,6 @@ iframe {
   }
 
   iframe {
-    width: 230px;
     height: 190px;
   }
 

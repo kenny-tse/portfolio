@@ -7,7 +7,7 @@ const Background = (props) => {
   return (
 
     <>
-      <video autoPlay muted loop id="backgroundVideo">
+      <video autoPlay muted loop id="backgroundVideo" playsInline>
         <source src={background} type="video/mp4"></source>
       </video>
     </>
