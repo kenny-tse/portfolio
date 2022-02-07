@@ -10,13 +10,16 @@ const Links = (props) => {
   const [popUp, setPopUp] = useState(false);
 
   const managePopUp = () => {
-
-    // navigator.clipboard.writeText("kennytse91@gmail.com")
-
-    setPopUp(true)
-    setTimeout(function () {
-      setPopUp(false)
-    }, 3500)
+    navigator.clipboard.writeText("kennytse91@gmail.com")
+      .then(() => {
+        setPopUp(true)
+        setTimeout(function () {
+          setPopUp(false)
+        }, 3500);
+      })
+      .catch((error) => {
+        console.error(error);
+      })
   }
 
   return (
@@ -35,7 +38,7 @@ const Links = (props) => {
         </div>
         <div className="iconColumn">
 
-          <img className="icon" alt="Mail Icon" src={mailIcon} onClick={() => { managePopUp(); }}></img>
+          {/* <img className="icon" alt="Mail Icon" src={mailIcon} onClick={() => { managePopUp(); }}></img> */}
 
           <a href="https://github.com/kenny-tse">
             <img className="icon" alt="Github Icon" src={githubIcon}></img>
@@ -49,7 +52,6 @@ const Links = (props) => {
       }
     </>
   )
-
 }
 
 export default Links;
