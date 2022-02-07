@@ -5,10 +5,10 @@ import Links from './components/Links';
 
 const App = () => {
   return (
+
     <div className="App">
       <Background />
       <NavBar />
-
       <div className="IntroContainer">
         <div>
           <header className="Name">KENNY TSE</header>

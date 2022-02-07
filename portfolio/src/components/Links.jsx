@@ -19,9 +19,7 @@ const Links = (props) => {
         </div>
 
         <div className="iconColumn">
-
-          <img className="icon" src={mailIcon}></img>
-
+          <img className="icon" src={mailIcon} href="mailto:kennytse91@gmail.com"></img>
           <a href="https://github.com/kenny-tse">
             <img className="icon" src={githubIcon}></img>
           </a>
