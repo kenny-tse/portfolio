@@ -9,8 +9,9 @@ const Links = (props) => {
 
   const [popUp, setPopUp] = useState(false);
 
-  const togglePopUp = () => {
+  const copyEmail = () => {
     setPopUp(true)
+    navigator.clipboard.writeText("kennytse91@gmail.com");
     setTimeout(function () {
       setPopUp(false)
     }, 3500)
@@ -32,7 +33,7 @@ const Links = (props) => {
         </div>
         <div className="iconColumn">
 
-          <img className="icon" alt="Mail Icon" src={mailIcon} onClick={() => { navigator.clipboard.writeText("kennytse91@gmail.com"); togglePopUp(); }}></img>
+          <img className="icon" alt="Mail Icon" src={mailIcon} onClick={copyEmail()}></img>
 
           <a href="https://github.com/kenny-tse">
             <img className="icon" alt="Github Icon" src={githubIcon}></img>
@@ -40,7 +41,8 @@ const Links = (props) => {
         </div>
       </div>
 
-      {popUp &&
+      {
+        popUp &&
         <div className="popUpNotification">Email copied to clipboard!</div>
       }
     </>
