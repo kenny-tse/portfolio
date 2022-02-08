@@ -1,6 +1,7 @@
 import './navBar.scss';
 import { scroller } from "react-scroll";
 import { scrollToSection } from './componentHelpers';
+import siteIcon from '../assets/favicon.ico';
 
 const NavBar = (props) => {
 
@@ -32,16 +33,21 @@ const NavBar = (props) => {
   };
 
   return (
-    <div id="NavBar">
-      <button className="navBarButton" onClick={scrollToTop}>
-        Introduction
-      </button>
-      <button className="navBarButton" onClick={scrollToProjects}>
-        Projects
-      </button>
-      <button className="navBarButton" onClick={scrollToSkillSets}>
-        Skills
-      </button>
+    <div className="navBar">
+      <div className="navBarIconContainer">
+        <img className="navBarIcon" alt="Mail Icon" src={siteIcon}></img>
+      </div>
+      <div className="navBarButtonContainer">
+        <button className="navBarButton" onClick={scrollToTop}>
+          Introduction
+        </button>
+        <button className="navBarButton" onClick={scrollToProjects}>
+          Projects
+        </button>
+        <button className="navBarButton" onClick={scrollToSkillSets}>
+          Skills
+        </button>
+      </div>
     </div>
 
   )

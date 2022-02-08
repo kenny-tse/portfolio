@@ -1,19 +1,34 @@
 @import "stylingVariables";
 @import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
 
-#NavBar{
+.navBar{
 
   // fix navbar to top
   position: fixed;
   top: 0;
   display:flex;
   width: 100%;
-
-  justify-content: space-around;
   background-color: rgb(73, 14, 14);
   height: 50px;
   align-items: center;
+  justify-content: space-between;
+}
 
+.navBarButtonContainer{
+  margin-right: 1%;
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.navBarIconContainer{
+  margin-left: 1%;
+  width: 100%;
+}
+
+.navBarIcon{
+  display: flex;
+  width: 35px;
 }
 
 .navBarButton{
@@ -22,6 +37,7 @@
   font-family: 'Gugi';
   border: none;
   background: none;
+  margin-left: 5%;
 
   display: inline-block;
   position: relative;
@@ -50,16 +66,59 @@
   .navBarButton{
     font-size: 20px;
   }  
+
+  .navBarIcon{
+    margin-left: 2%;
+  }
 }
 
 @media only screen and (max-width: 600px) {
+
+  .navBarIcon{
+    width: 25px;
+  }
+
+  .navBar{
+    height: 40px;
+  }
+
   .navBarButton{
     font-size: 18px;
   }  
 }
 
 @media only screen and (max-width: 375px) {
+
+  .navBar{
+    height: 30px;
+  }
+
+
   .navBarButton{
     font-size: 13px;
+    margin-left: 2%;
   }  
+
+  .navBarIcon{
+    width: 19px;
+    margin-left: 10%;
+  }
+}
+
+@media only screen and (max-width: 250px) {
+
+  .navBarButton{
+    font-size: 13px;
+    margin-left: 0.5%;
+  }  
+
+  .navBarButtonContainer{
+    justify-content: center;
+  }  
+
+  .navBarIconContainer{
+    display: none;
+    visibility: hidden;
+    width: 100%;
+  }
 }
