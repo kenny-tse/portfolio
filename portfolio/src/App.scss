@@ -9,7 +9,7 @@ html{
   font-family: 'Gugi';
 }
 
-.IntroContainer, .SkillSetContainer{
+.introContainer, .skillSetContainer{
   display:flex;
   margin-left: 5%;
   margin-top: 15%;
@@ -18,21 +18,21 @@ html{
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-.SkillSetContainer{
+.skillSetContainer{
   margin-top: 35%;
   width: 90%;
   margin-bottom: 35%;
 }
 
-.Name{
+.name{
   font-size: 64px;
 }
 
-.IntroParagraph, .SkillSetList{
+.introParagraph, .skillSetList{
   font-size: 32px;
   }
 
-.ProjectsContainer{
+.projectsContainer{
   margin-top: 35%;
   display: flex;
   flex-direction: column;
@@ -41,7 +41,7 @@ html{
   margin-left: 3%;
 }
 
-.VideoHolder{
+.videoHolder{
   display: flex;
   align-items: center;
   margin-bottom: 5%;
@@ -72,7 +72,7 @@ iframe {
     flex-direction: column;
   }
 
-  .IntroContainer, .SkillSetContainer{
+  .introContainer, .skillSetContainer{
     width: 90%;
   }
 
@@ -81,17 +81,17 @@ iframe {
     height: 350px;
   }
 
-  .IntroContainer {
+  .introContainer {
     display: flex;
     margin-top: 40%;
     flex-direction: column;
   }
 
-  .ProjectsContainer{
+  .projectsContainer{
     margin-top:60%; 
   }
 
-  .VideoHolder{
+  .videoHolder{
     flex-direction: column;
     align-items: flex-end;
   }
@@ -102,7 +102,7 @@ iframe {
     width: 100%;
   }
 
-  .SkillSetContainer{
+  .skillSetContainer{
     margin-top:30%;
   }
 
@@ -119,15 +119,15 @@ iframe {
 }
 
 @media only screen and (max-width: 375px) {
-  .Name{
+  .name{
     font-size: 28px;
   }
   
-  .IntroParagraph{
+  .introParagraph{
     font-size: 18px;
   }
 
-  .SkillSetList{
+  .skillSetList{
     font-size: 18px;
   }
 
@@ -143,15 +143,15 @@ iframe {
 
 @media only screen and (max-width: 300px) {
 
-  .Name{
+  .name{
     font-size: 25px;
   }
   
-  .IntroParagraph{
+  .introParagraph{
     font-size: 14px;
   }
 
-  .SkillSetList{
+  .skillSetList{
     font-size: 14px;
   }
 

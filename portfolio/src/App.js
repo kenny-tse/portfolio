@@ -10,16 +10,16 @@ const App = () => {
     <div className="App">
       <Background />
       <NavBar />
-      <div className="IntroContainer">
+      <div className="introContainer">
         <div>
-          <header className="Name">KENNY TSE</header>
-          <p className="IntroParagraph">Full stack developer with a passion for creating apps that not only enhance the user experience but the internal employee experience as well. I’m excited to utilize my interpersonal skills to understand the customer and employee pain points and use that as the driving factor in app development.</p>
+          <header className="name">KENNY TSE</header>
+          <p className="introParagraph">Full stack developer with a passion for creating apps that not only enhance the user experience but the internal employee experience as well. I’m excited to utilize my interpersonal skills to understand the customer and employee pain points and use that as the driving factor in app development.</p>
         </div>
         <Links />
       </div>
 
-      <div className="ProjectsContainer">
-        <div className="VideoHolder">
+      <div className="projectsContainer">
+        <div className="videoHolder">
           <iframe className="videoToShow" src="https://www.youtube.com/embed/6mUm3OVhgjA" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
           <div className="videoDescription">
             <div className="projectTitle">Fork it Over</div>
@@ -28,7 +28,7 @@ const App = () => {
           </div>
         </div>
 
-        <div className="VideoHolder">
+        <div className="videoHolder">
           <iframe className="videoToShow" src="https://www.youtube.com/embed/lKQDpHSCSDM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
           <div className="videoDescription">
             <div className="projectTitle">LiveBlock Simulator</div>
@@ -37,7 +37,7 @@ const App = () => {
           </div>
         </div>
 
-        <div className="VideoHolder">
+        <div className="videoHolder">
           <iframe className="VideoToShow" src="https://www.youtube.com/embed/gMkWgvs-eqg" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
           <div className="videoDescription">
             <div className="projectTitle">Interview Scheduler</div>
@@ -47,8 +47,8 @@ const App = () => {
         </div>
       </div>
 
-      <div className="SkillSetContainer">
-        <div className="SkillSetList">
+      <div className="skillSetContainer">
+        <div className="skillSetList">
           <div>LANGUAGES: JavaScript, Ruby, HTML5, SQL, CSS3, Java, C#, C++</div><br />
           <div>FRAMEWORKS/ LIBRARIES: NodeJS, ReactJS, Express, JQuery, Ajax, Swing,.NET Framework, WinForm, Ruby on Rails, SASS, Material-UI, Mocha/Chai, Git, Jest, Storybook, Poltergeist, Cypress, JUnit</div><br />
           <div>DATABASES: PostgreSQL, msSQL</div><br />

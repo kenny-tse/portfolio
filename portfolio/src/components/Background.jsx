@@ -1,11 +1,10 @@
 import React, { Fragment } from 'react';
 import background from '../assets/background.mp4';
-import './background.scss';
+import './Background.scss';
 
 const Background = (props) => {
 
   return (
-
     <>
       <video autoPlay muted loop id="backgroundVideo" playsInline>
         <source src={background} type="video/mp4"></source>

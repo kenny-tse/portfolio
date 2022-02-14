@@ -1,4 +1,4 @@
-import './navBar.scss';
+import './NavBar.scss';
 import { scroller } from "react-scroll";
 import { scrollToSection } from './componentHelpers';
 import siteIcon from '../assets/favicon.ico';
@@ -15,7 +15,7 @@ const NavBar = (props) => {
   };
 
   const scrollToProjects = () => {
-    scroller.scrollTo("ProjectsContainer", {
+    scroller.scrollTo("projectsContainer", {
       duration: 800,
       delay: 0,
       smooth: "easeInOutQuart",
@@ -24,7 +24,7 @@ const NavBar = (props) => {
   };
 
   const scrollToSkillSets = () => {
-    scroller.scrollTo("SkillSetContainer", {
+    scroller.scrollTo("skillSetContainer", {
       duration: 800,
       delay: 0,
       smooth: "easeInOutQuart",
@@ -49,7 +49,6 @@ const NavBar = (props) => {
         </button>
       </div>
     </div>
-
   )
 
 }

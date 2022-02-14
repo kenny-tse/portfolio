@@ -2,7 +2,7 @@ import linkedinIcon from '../assets/linkedin_icon.png';
 import githubIcon from '../assets/github_icon.png';
 import creddleIcon from '../assets/creddle_icon.png';
 import mailIcon from '../assets/mail_icon.png';
-import './links.scss';
+import './Links.scss';
 import { useState } from 'react'
 
 const Links = (props) => {
